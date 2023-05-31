@@ -97,7 +97,7 @@ ul li:hover::after{
 }
 
 ul li ion-icon{
-    color: #777;
+    color: rgb(3, 3, 3);
     font-size: 1.75rem;
     transition: 0.5s;
 }
@@ -121,4 +121,37 @@ ul li .text{
 ul li:hover .text{
     transform: scale(1);
     transition-delay: 0.25;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.card {
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(107, 5, 240);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 10px;
+}
+
+.card button {
+  background-color: #d3e6d3;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
 }
