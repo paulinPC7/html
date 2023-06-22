@@ -10,6 +10,8 @@
 body{
     padding-top: 10px;
     background-color: rgba(133, 145, 163, 0.466);
+    margin: 0;
+    padding: 0;
 }
   .header{
     font-size: 36px;
@@ -154,4 +156,72 @@ ul li:hover .text{
   display: inline-block;
   font-size: 14px;
   cursor: pointer;
+}
+
+}
+
+.product p {
+    margin-top: 10px;
+}
+
+.product .price {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+.product .buy-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+ 
+        .search-container {
+            position: fixed;
+            top: 0;
+            right: 0;
+            padding: 10px;
+            background-color: 
+        }
+        
+        .search-input {
+            width: 200px;
+            padding: 5px;
+            border: none;
+            border-radius: 3px;
+        }
+        
+        .search-button {
+            padding: 5px 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+.all-products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: auto;
+    width: auto;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.product:last-child {
+    margin-right: 0; /* Remove a margem direita da última div */
+}
+
+.photo{
+  height: 100px;
+  width: 100px;
 }
