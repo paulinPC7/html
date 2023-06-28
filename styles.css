@@ -12,6 +12,9 @@ body{
     background-color: white
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px
 }
   .header{
     font-size: 36px;
@@ -186,43 +189,55 @@ ul li:hover .text{
             cursor: pointer;
         }
 
-.all-products {
-    display: flex;
-    flex-wrap: wrap;
-}
-.product p {
-    margin-top: 0px;
-}
 
-.product .price {
-    font-weight: bold;
-    color:black
-    margin-top: 10px;
-}
 
-.product .buy-button {
-    background-color: rgb(1, 1, 245);
-    color: rgb(5, 5, 5);
-    border: none;
-    padding: 5px 10px;
-    margin-top: 10px;
-    cursor: pointer;
+h1 {
+  text-align: center;
 }
-
+.all .product{
+    display: flex 30;
+}
 .product {
-    border: 1px solid rgb(72, 14, 245);
-    padding: 1px;
-    height: auto;
-    width: auto;
-  margin-bottom: 15px;
-  margin-left: 47px;
+  display: inline-block;
+  text-align: center;
+  margin: 30px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-.product:last-child {
-    margin-right: 10; 
+.product img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  display: flex;
 }
 
-.photo{
-  height: 110px;
-  width: 110px;
+.product h2 {
+  margin-top: 0;
 }
+
+.price {
+  font-weight: bold;
+}
+
+.comprar{
+    margin-top: 100px;
+    margin-left: -75px;
+}
+
+.buy-btn {
+  background-color: #7f4caf;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+height: 100px;
+widt
