@@ -9,7 +9,7 @@
 
 body{
     padding-top: 10px;
-    background-color: rgb(15, 15, 15);
+    background-color: white
     margin: 0;
     padding: 0;
 }
@@ -38,8 +38,8 @@ body{
     justify-content: center;
     margin-top: 40px;
     width: 100%;
-    color: #fff;
-    background-color:;
+    color:black
+    
  }
 
 .company-name {
@@ -108,7 +108,7 @@ ul li ion-icon{
     transition: 0.5s;
 }
 ul li:hover ion-icon{
-    color: #fff;
+    color:black;
     transform: scale(0);
     transition-delay: 0;
 }
@@ -116,7 +116,7 @@ ul li span{
     position: absolute;
 }
 ul li .text{
-    color: #fff;
+    color: black;
     font-size: 1.25rem;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
@@ -196,7 +196,7 @@ ul li:hover .text{
 
 .product .price {
     font-weight: bold;
-    color: rgb(249, 249, 250);
+    color:black
     margin-top: 10px;
 }
 
@@ -210,7 +210,7 @@ ul li:hover .text{
 }
 
 .product {
-    border: 1px solid #ddd;
+    border: 1px solid rgb(72, 14, 245);
     padding: 1px;
     height: auto;
     width: auto;
