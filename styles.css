@@ -35,21 +35,22 @@ body{
     width: 100%;
    
 }
+
+ 
  .card-c{
    align-items: center;
     display: flex;
     justify-content: center;
     margin-top: 40px;
     width: 100%;
-    color:black
+    color:black}
     
- }
-
 .company-name {
     flex-grow: 1;
     text-align: center;
     margin-left: -200px;
     color: rgb(72, 14, 245);
+    font-size: 50px;
 
     
   }
@@ -161,7 +162,7 @@ ul li:hover .text{
   cursor: pointer;
 }
 
-}
+
 
 
  
@@ -182,8 +183,8 @@ ul li:hover .text{
         
         .search-button {
             padding: 5px 10px;
-            background-color: #333;
-            color: #fff;
+            background-color:black;
+            color: white;
             border: none;
             border-radius: 3px;
             cursor: pointer;
