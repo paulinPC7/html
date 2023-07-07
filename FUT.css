@@ -1,56 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 
-*{
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
 }
 
-body{
-    padding-top: 10px;
-    background-color: rgba(133, 145, 163, 0.466);
-    margin: 0;
-    padding: 0;
-}
-  .header{
-    font-size: 36px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    background-color:rgb(228, 219, 219));
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  }
 
-.container{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    width: 100%;
+
+
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.logo img{
-    height: 100px;
-    width: auto;
-    margin-top: 15px;
-    margin-left: 20px;
+.search-container input[type="text"] {
+  padding: 10px;
+  border: solid black;
+  font-size: 16px;
+  margin-right: 5px;
 }
 
-.company-name {
-    flex-grow: 1;
-    text-align: center;
-    margin-left: -200px;
-    color: rgb(103, 4, 184);
-    
-  }
-
+.search-container button {
+  padding: 10px;
+  background-color:
+  border: solid black;
+  cursor: pointer;
+}
+h1{
+  text-align: center;
+}
 ul{
     display: flex;
-    gap: 35px;
-    position: relative;
+    gap: 150px;
+    position: ;
 }
 ul li{
     align-items: center;
@@ -67,7 +50,7 @@ ul li{
     width: 60px;
 }
 ul li:hover{
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+    box-shadow: 0 10px 25px rgba(218, 15, 15, 0);
     width: 180px;
 }
 ul li::before{
@@ -104,7 +87,7 @@ ul li ion-icon{
     transition: 0.5s;
 }
 ul li:hover ion-icon{
-    color: #fff;
+    color:black;
     transform: scale(0);
     transition-delay: 0;
 }
@@ -112,7 +95,7 @@ ul li span{
     position: absolute;
 }
 ul li .text{
-    color: #fff;
+    color: black;
     font-size: 1.25rem;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
@@ -124,65 +107,54 @@ ul li:hover .text{
     transform: scale(1);
     transition-delay: 0.25;
 }
+.all .product{
+    display: flex 30;
+}
+.product {
+  display: inline-block;
+  text-align: center;
+  margin: 30px;
+  padding: 30px;
+  border: 1px solid rgb(7, 7, 7);
+  border-radius: 5px;
+}
 
-.card-container {
+
+
+
+.product img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 100px;
 }
 
-.card {
-  width: 30%;
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid rgb(107, 5, 240);
-}
-
-.card h2 {
+.product h2 {
   margin-top: 0;
 }
 
-.card p {
-  margin-bottom: 10px;
+.price {
+  font-weight: bold;
 }
 
-.card button {
-  background-color: #d3e6d3;
+.comprar{
+    margin-top: 100px;
+    margin-left: -75px;
+}
+
+.buy-btn {
+  background-color: #7f4caf;
   color: white;
   border: none;
-  padding: 5px 10px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
+  margin-top: 10px;
   cursor: pointer;
+  border-radius: 5px;
+height: 100px;
+width: 133px;
 }
-   .search-container {
-            position: fixed;
-            top: 0;
-            right: 0;
-            padding: 10px;
-            background-color: 
-        }
-        
-        .search-input {
-            width: 200px;
-            padding: 5px;
-            border: none;
-            border-radius: 3px;
-        }
-        
-        .search-button {
-            padding: 5px 10px;
-            background-color: #333;
-            color: #fff;
-            border: none;
-            border-radius: 3px;
-            cursor: pointer;
-        }
-
- <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-</html>
